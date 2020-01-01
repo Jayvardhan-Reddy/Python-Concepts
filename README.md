@@ -3,23 +3,23 @@ Python learning material
 
 ## Basics
 
-1. Mutable & Immutable
+**1. Mutable & Immutable**
 
-2. List & Tuple
+**2. List & Tuple**
 
-3. Array & List
+**3. Array & List**
 
-4. Lambda/ Anonymous Functions
+**4. Lambda/ Anonymous Functions**
     - Map
     - Filter
     - Reduce
   
-5. Functions
+**5. Functions**
     - Recursive
   
-6. Global vs Globals (Local & Global Variable)
+**6. Global vs Globals (Local & Global Variable)**
 
-7. Decorators
+**7. Decorators**
     - To change behaviour of existing function during compile time.
       eg:
 
@@ -40,60 +40,60 @@ Python learning material
    div(2,4)
 ```
 
-8. Module
+**8. Module**
 
-9. __ _name_ __ (Special Variables)
+**9. __ _name_ __ (Special Variables)**
     - main
   
-10. OOPS/Functional/Procedural
+**10. OOPS/Functional/Procedural**
 
-11. __ _init_ __ (Special Methods)
+**11. __ _init_ __ (Special Methods)**
     - Similar to Constructor in Java
    
-12. Namespace 
+**12. Namespace**
     - Is an area where you create and store Object/Variable   
       - Class Namespace
       - Object/Instance Namespace
 
-13. Types of Variables
+**13. Types of Variables**
     - Instance
     - Class/Stactic variable
   
-14. Types of Methods
+**14. Types of Methods**
     - Instance
     - Class
     - Static
   
-15. Overriding vs Overloading
+**15. Overriding vs Overloading**
 
-16. Inheritance
+**16. Inheritance**
     - Multiple
     - Multi-level
   
-17. Iterator
+**17. Iterator**
     - iter()
     - next()
   
-18. Generator
+**18. Generator**
     - Yield()
   
-19. Polymorphism
+**19. Polymorphism**
     - Duck Typing
       - Execute()
     - Operator Overloading
     - Method Overloading
   
-20. Exception Handling
+**20. Exception Handling**
 
-21. Multithreading
+**21. Multithreading**
 
-22. File Handling
+**22. File Handling**
 
 ----------------------------
 
 ## Advance Topics (In-Depth)
 
-1. Type Checking
+**1. Type Checking**
 
 Type checking is mainly classified into 2 types
 
@@ -105,7 +105,7 @@ ii) Dynamic
    - Variable is known at run-time
    - Dynamically typed OOP
 
-2. Data type classification
+**2. Data type classification**
 
   It is mainly classified into two categories
       
@@ -140,7 +140,7 @@ ii) Dynamic
   Here id is identity which is the object’s address in memory. A new id would be created the second time, therefore making it immutable.
   Similar to String concept of Java
 
-3. Object instantiation & Storage details
+**3. Object instantiation & Storage details**
 
   The default implementation of Python is CPython.
 	
@@ -156,7 +156,7 @@ ii) Dynamic
 
    - Garbage collector cleans based on the reference count of Object. When it reaches '0' the object is removed.
 
-4. Bytecode Compilation and Execution
+**4. Bytecode Compilation and Execution**
 
    - Python is an interpreted programming language. Your Python code actually gets compiled down to more computer-readable instructions called bytecode.
 ```   eg:
@@ -175,7 +175,7 @@ ii) Dynamic
 ```
    -  The CPython VM only knows about CPython bytecode, CPython interpreter is used to run it.
 
-5. Tuple: Insertion and Deletion of elements in Python
+**5. Tuple: Insertion and Deletion of elements in Python**
 
    - It is immutable in nature.
 
@@ -198,7 +198,7 @@ Lets look at one of the workarounds to overcome it.
 ```
 Here it does not attempt to modify the reference in place, it reassigns.
 
-6. Sorting a Tuple
+**6. Sorting a Tuple**
 
    - use sorted()
 
@@ -218,7 +218,7 @@ Here it does not attempt to modify the reference in place, it reassigns.
        sorted(a, reverse=True)
    ```
 
-7. List VS Tuple
+**7. List VS Tuple**
 
 ➡️ List
 
@@ -253,13 +253,13 @@ Here it does not attempt to modify the reference in place, it reassigns.
       True
 ```
 
-8. Creating Empty Dictionary
+**8. Creating Empty Dictionary**
 
   ➡️ my_dict = dict() // slow
 
   ➡️ my_dict = {} // Fast
 
-9. Array Deep & Shallow Copy
+**9. Array Deep & Shallow Copy**
 
 ➡️ Shallow Copy (or) View
 

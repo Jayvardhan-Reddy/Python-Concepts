@@ -291,26 +291,26 @@ print(id(aar3))
 
 ###Note:
   - Python does not work on Pass by Value or Pass By Reference
-  	- Pass By Value: Means it will have different addresses
+  	
+      - Pass By Value: Means it will have different addresses
 	
-      ```	
+```	
 	eg:
 	 def update(x):			// Expectation different address for X
 	 	print(id(x))		
-		x = 8 
-		print(id(x))
 		
-	a = 10
-	print(id(a))
-	update(a)			// Expectation different address for a
-	print("a", a)
+	 a = 10
+	 print(id(a))
+	 update(a)			// Expectation different address for a
+	 print("a", a)
 
 	O/P:
 	 Both x and a have same address
-	```
-       - Pass By Reference: When we change the value it should affect both places
+```
+   .
+      - Pass By Reference: When we change the value it should affect both places
  
-       ```	
+```       
 	eg:
 	 def update(x):
 	 	print(id(x))		
@@ -318,11 +318,11 @@ print(id(aar3))
 		print(id(x))		// Here the address is changed when ever a change is made to the variable
 		print("x", x)
 		
-	a = 10
-	print(id(a))
-	update(a)			// Expectation different address for a
-	print("a", a)
+	 a = 10
+	 print(id(a))
+	 update(a)			// Expectation different address for a
+	 print("a", a)
 
 	O/P:
-	 Both x and a have same address
-	```
+	 Both x and a have different address after changing value of x
+```

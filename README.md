@@ -10,17 +10,20 @@ Python learning material
 **3. Array & List**
 
 **4. Lambda/ Anonymous Functions**
-    - Map
-    - Filter
-    - Reduce
+ 
+   - Map    
+   - Filter    
+   - Reduce
   
 **5. Functions**
-    - Recursive
+
+   - Recursive
   
 **6. Global vs Globals (Local & Global Variable)**
 
 **7. Decorators**
-    - To change behaviour of existing function during compile time.
+ 
+ - To change behaviour of existing function during compile time.
       eg:
 
 ```        
@@ -43,45 +46,54 @@ Python learning material
 **8. Module**
 
 **9. __ _name_ __ (Special Variables)**
-    - main
+
+   - main
   
 **10. OOPS/Functional/Procedural**
 
 **11. __ _init_ __ (Special Methods)**
-    - Similar to Constructor in Java
+
+   - Similar to Constructor in Java
    
 **12. Namespace**
-    - Is an area where you create and store Object/Variable   
-      - Class Namespace
-      - Object/Instance Namespace
+
+   - Is an area where you create and store Object/Variable   
+     - Class Namespace
+     - Object/Instance Namespace
 
 **13. Types of Variables**
-    - Instance
-    - Class/Stactic variable
+
+   - Instance
+   - Class/Stactic variable
   
 **14. Types of Methods**
-    - Instance
-    - Class
-    - Static
+
+   - Instance
+   - Class
+   - Static
   
 **15. Overriding vs Overloading**
 
 **16. Inheritance**
-    - Multiple
-    - Multi-level
+
+   - Multiple
+   - Multi-level
   
 **17. Iterator**
-    - iter()
-    - next()
+
+   - iter()
+   - next()
   
 **18. Generator**
-    - Yield()
+
+   - Yield()
   
 **19. Polymorphism**
-    - Duck Typing
-      - Execute()
-    - Operator Overloading
-    - Method Overloading
+
+   - Duck Typing
+     - Execute()
+   - Operator Overloading
+   - Method Overloading
   
 **20. Exception Handling**
 

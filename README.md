@@ -9,7 +9,7 @@ Python learning material
 
 3. Array & List
 
-4. Lambda
+4. Lambda/ Anonymous Functions
     - Map
     - Filter
     - Reduce

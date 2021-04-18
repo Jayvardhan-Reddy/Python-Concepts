@@ -338,3 +338,7 @@ print(id(aar3))
 	O/P:
 	 Both x and a have different address after changing value of x
 ```
+
+**10. List Comprehension**
+
+	- https://www.programiz.com/python-programming/list-comprehension
